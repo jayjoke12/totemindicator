@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "totemindicator",
+  "version": "${version}",
+  "name": "Totem Indicator",
+  "description": "Outlines your screen in red when you don't have a totem in your offhand. Use /totemindicator toggle to enable/disable.",
+  "authors": ["jayjoke"],
+  "contact": {
+    "homepage": "https://modrinth.com/project/offhandtotemindicator/"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/totemindicator/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.jayjoke.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
